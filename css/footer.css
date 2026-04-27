@@ -2,6 +2,12 @@
   background-color: #2e2f42;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
 .footer-link-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -11,6 +17,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -18,4 +25,5 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }

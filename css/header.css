@@ -1,17 +1,11 @@
-header {
+.header {
   border-bottom: 1px solid #e7e9fc;
-}
-
-a {
-  display: block;
-  padding: 24px 0 24px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-start {
@@ -46,6 +40,8 @@ a {
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -55,7 +51,6 @@ a {
 
 .address {
   display: flex;
-  justify-content: space-between;
 }
 
 .address-link {

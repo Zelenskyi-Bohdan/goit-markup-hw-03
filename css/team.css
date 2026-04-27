@@ -22,7 +22,6 @@
 
 .team-list {
   display: flex;
-  width: 1128px;
   gap: 24px;
   justify-content: center;
 }

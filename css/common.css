@@ -4,6 +4,10 @@ body {
   background-color: #fff;
 }
 
+main {
+  flex-grow: 1;
+}
+
 h1,
 h2,
 h3,
@@ -22,13 +26,23 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   box-sizing: border-box;
   max-width: 100%;
 }
 
+.page-container {
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
 }
 

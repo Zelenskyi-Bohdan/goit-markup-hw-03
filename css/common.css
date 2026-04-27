@@ -4,10 +4,6 @@ body {
   background-color: #fff;
 }
 
-main {
-  flex-grow: 1;
-}
-
 h1,
 h2,
 h3,
@@ -35,17 +31,11 @@ img {
   max-width: 100%;
 }
 
-.page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .container {
   width: 1440px;
   margin: 0 auto;
 }
 
 .section {
-  padding: 120px 141px;
+  padding: 120px 0;
 }

@@ -27,12 +27,8 @@
   justify-content: center;
 }
 
-.team-list-item {
-  padding-bottom: 32px;
-}
-
-.team-list-image {
-  margin-bottom: 32px;
+.team-list-container {
+  padding: 32px 16px;
 }
 
 .team-list-title {
@@ -54,4 +50,5 @@
 
 .team-list-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
 }

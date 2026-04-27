@@ -1,18 +1,31 @@
-.features-list {
-  list-style-type: none;
+.features-title {
+  text-align: center;
 }
 
-.features-list-title {
+.features-container {
+  display: flex;
+  justify-content: center;
+}
+
+.features-list {
+  display: flex;
+  width: 1158px;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.features-list-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
-.features-list-text {
+.features-list-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  width: 264px;
 }

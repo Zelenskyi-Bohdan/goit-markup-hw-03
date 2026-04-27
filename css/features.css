@@ -6,7 +6,6 @@
 .features-list {
   display: flex;
   gap: 24px;
-  padding: 0 15px;
 }
 
 .features-list-item {

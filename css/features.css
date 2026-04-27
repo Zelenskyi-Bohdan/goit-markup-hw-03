@@ -10,6 +10,7 @@
 .features-list {
   display: flex;
   width: 1158px;
+  gap: 24px;
   justify-content: space-between;
   padding: 0 15px;
 }
